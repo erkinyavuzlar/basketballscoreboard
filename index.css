@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-color: #1B244A
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-style: bold;  
+    font-size: 40px;
+    line-height: 35.98px;
+    vertical-align: top;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-container {
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+    color: #F94F6D;
+    font-family: Cursed Timer ULiL;
+    font-style: Regular;
+    font-size: 90px;
+    line-height: 0px;
+    background-color: black;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-left: 300px
+}
+
+.guest-container {
+    justify-content: space-around;
+    display: flex;
+    color: #F94F6D;
+    font-family: Cursed Timer ULiL;
+    font-style: Regular;
+    font-size: 90px;
+    line-height: 0px;
+    align: Center;
+    background-color: black;
+    border-radius: 15px;
+    height: 155px;
+    width: 150px;
+    margin-left: 1075px;
+}
+.add-point-home {
+    width: 45px;
+    height: 45px;
+    margin-left: 350px;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.add-point-guest {
+    width: 45px;
+    height: 45px;
+    margin-left: 1127px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+button {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+
+    font-size: 2em;
+    border: 3px solid white;
+    border-radius: 10px;
+
+    color: var(--text-color2);
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: rgb(0, 7, 100);
+}
